@@ -1,2 +1,2 @@
 # HSChinese
-Wep ASP.NET CORE application for asian learning language platform
+Web ASP.NET CORE application for asian learning language platform
