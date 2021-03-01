@@ -1,0 +1,95 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Cource Gallery</h1>
+
+<link rel="stylesheet" href="~/css/fluid-gallery.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+<link rel="stylesheet" href="fluid-gallery.css">
+
+
+
+<div class="container gallery-container">
+
+
+    <div class="tz-gallery">
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-4">
+                <a class="lightbox" href="~/images/chnC.jpeg">
+                    <img src="~/images/chnC.jpeg" alt="Chinese">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="~/images/chnC2.jpg">
+                    <img src="~/images/chnC2.jpg" alt="Chinese 2">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="~/images/jpJ.jpg">
+                    <img src="~/images/jpJ.jpg" alt="Japanese">
+                </a>
+            </div>
+            <div class="col-sm-12 col-md-8">
+                <a class="lightbox" href="~/images/jpJ2.jpg">
+                    <img src="~/images/jpJ2.jpg" alt="Japanese 2">
+                </a>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="~/images/korK.jpg">
+                    <img src="~/images/korK.jpg" alt="Korean">
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="~/images/korK2.jpg">
+                    <img src="~/images/korK2.jpg" alt="Korean 2">
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="~/images/chn.png">
+                    <img src="~/images/chn.png" alt="Chinese lang">
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="~/images/jp.png">
+                    <img src="~/images/jp.png" alt="Japanese lang">
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <a class="lightbox" href="~/images/kor.png">
+                    <img src="~/images/kor.png" alt="Korean lang">
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+<script>
+    baguetteBox.run('.tz-gallery');
+</script>
+
+
+<environment include="Development">
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+</environment>
+
+
+
+

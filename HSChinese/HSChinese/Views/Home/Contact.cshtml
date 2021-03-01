@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+<h2>@ViewData["Title"]</h2>
+
+
+<address id="panel2">
+    Dunav 66<br />
+    Plovdiv, Bulgaria 4001<br />
+    <abbr title="Phone">P:</abbr>
+    0883 43 99 66
+</address>
+
+<address>
+    <strong>Contact via E-mail:</strong> <a href="https://mail.google.com/">gerity27@gmail.com</a><br />
+
+</address>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<script>
+    $(function () {
+
+        $('#panel2').hide(300).show(1000);
+
+    });
+</script>
