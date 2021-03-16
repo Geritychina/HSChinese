@@ -7,5 +7,4 @@ _layout<br>
 Unit tests<br>
 Improved Identity<br>
 Roles<br>
-New Seed<br>
 and more...
