@@ -2,5 +2,5 @@
 Web ASP.NET CORE application for asian language learning platform
 <br>
 NB!<br>
-In future will be improved...<br>
+In future will be improved with more functionalities...<br>
 
