@@ -4,7 +4,7 @@
 
 :pushpin: In future will be improved with more functionalities...<br>
 
-📌Asp.Net Core Web Application with Identity 📌 <br>
+📌Asp.Net Core Web Application with Identity and Role Authorization 📌 <br>
 
 Made with love by Gergana ™
 
