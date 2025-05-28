@@ -48,7 +48,4 @@
 
 --
 
-👩‍💻 About the Author
-Created by Gergana Varbanova — Sinologist and Full-Stack Developer with a passion for education and technology.
---
 Made with love by Gergana ™
