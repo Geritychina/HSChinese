@@ -46,6 +46,5 @@
 - **Mobile Optimization**:  
   Enhance UI/UX for mobile and tablet users to ensure a seamless experience across devices.
 
---
 
 Made with love by Gergana ™
